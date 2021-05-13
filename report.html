@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ľuboš Vajčovec">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Výsledky testov</title>
+  <style>
+    body {
+      background-color: rgb(57, 19, 39);
+      font-family: "Lucida Console", Monaco, monospace;
+      font-size: 12px;
+      color: white;
+    }
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    h2 {
+      color: rgb(255, 179, 102);
+      font-size: 25px;
+      padding: 2%;
+    }
+    p {
+      color: rgb(255, 255, 128);
+      font-size: 18px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      text-align: center;
+      margin-left: 9%;
+    }
+    th {
+      background-color: rgb(41, 41, 61);
+      padding: 10px;
+    }
+    tr {
+      font-size: 15px;
+      height: 20px;
+    }
+    tr:hover {
+      background-color: rgb(41, 41, 61);
+    }
+    .DIR {
+      color: white;
+    }
+    .OK {
+      color: rgb(0, 153, 0);
+    }
+    .X {
+      color: rgb(230, 0, 0);
+    }
+  </style>
+</head>
+<body>
+  <h1>Súhrnný prehľad nájdených testov</h1>
+  <div style="text-align:center">Ľuboš Vajčovec | xvajco00 | IPP | VUT FIT 2020</div>
+  <h2>SPOLU: 234/246 
+    <span style="font-size:small">(95.12%)</span>
+  </h2>
+  <p>
+    Adresár:&emsp;
+    <span class="DIR">/homes/eva/xv/xvajco00/IPP/IPP-test.php-master/int-only/stack_calc</span>
+    &emsp;&emsp;5/7 
+    <span style="font-size:12px">(71.43%)</span>
+  </p>
+  <table>
+    <tr>
+      <th>Názov testu</th>
+      <th>Výsledok testu</th>
+    </tr>
+    <tr>
+      <td>kalkulacka_STACK_rozsireni</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>stack_test</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>toast_#_in_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>toast_arg_number</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>toast_arg_swap</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>toast_inst_number</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>toast_inst_swap</td>
+      <td class="OK">OK</td>
+    </tr>
+  </table>
+  <p>
+    Adresár:&emsp;
+    <span class="DIR">/homes/eva/xv/xvajco00/IPP/IPP-test.php-master/int-only/venki_tests</span>
+    &emsp;&emsp;170/174 
+    <span style="font-size:12px">(97.7%)</span>
+  </p>
+  <table>
+    <tr>
+      <th>Názov testu</th>
+      <th>Výsledok testu</th>
+    </tr>
+    <tr>
+      <td>test write nil2</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>test_add</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_add_notint</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_and</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_and_notbool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_pop_from_empty</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_pop_from_empty2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_pop_from_top</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_pop_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_pop</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_pop_pop</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_uninitialized_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_var_pop</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_basestack_push_var_pop2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_correct_jumps_number</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_jump_backwards</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_jump_backwards_return</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_jump_forward</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_jump_forward_return</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_non_existing_label</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_call_return_return</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_empty_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_empty_string2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_undefined_frame2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_undefined_frame3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_undefined_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_undefined_var3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_uninitialized_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_uninitialized_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_wrong_operand_type</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_concat_wrong_operand_type2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_createframe_clear_tf</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_empty_program</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_eq</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_eq_differenttype</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_eq_differenttype_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_eq_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_not_int</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_too_big</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_too_small</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_uninitialized_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_valid</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_valid2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_exit_valid3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_out_of_the_bounds</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_undefined_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_undefined_var3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_uninitialized_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_uninitialized_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_wrong_operand_type</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_getchar_wrong_operand_type2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_gf_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_gf_uninitialized_variable</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_gf_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_gt</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_gt_differenttype</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_gt_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_idiv</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_idiv_notint</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_int2char</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_int2char_notnumber</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_int2char_wrongnumber</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifeq_bool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifeq_differenttype</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifeq_differenttype_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifeq_int</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifeq_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifeq_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifneq_bool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifneq_differenttype</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifneq_differenttype_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifneq_int</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_jumpifneq_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_defined_but_pushed_over</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_taking_from_correct_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_undefined_frame_2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_uninitialized_variable</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lf_uninitialized_variable2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lt</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lt_differenttype</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_lt_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_move_from_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_move_into_undefined_var_in_lf</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_mul</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_mul_notint</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_not</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_not_notbool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_or</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_or_notbool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_popframe_multiple_times</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_popframe_noframe</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_popframe_noframe2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_pushframe</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_pushframe2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_pushframe_deleted_tf</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_pushframe_noframe</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_pushframe_noframe2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_pushframe_popframe</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_bool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_bool_case_insensitive</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_bool_default_value</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_bool_empty_file</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>test_read_change_value</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_int</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_int_default_value</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>test_read_int_empty_file</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>test_read_multiple_times_from_file</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_string_empty_file</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_string_multiple_lines</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_read_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_return_empty_call_stack</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_return_empty_stack_more_calls</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_empty_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_out_of_the_bounds</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_undefined_frame2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_undefined_frame3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_undefined_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_undefined_var3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_wrong_operand_types</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_wrong_operand_types2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_setchar_wrong_operand_types3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_stri2int</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_stri2int_notnumber</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_stri2int_notstring</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_stri2int_outofbounds</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_diacritics</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_empty_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_escape_seq</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_escape_seq_from_read</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_undefined_frame2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_undefined_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_uninitialized_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_strlen_wrong_operand_type</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_sub</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_sub_notint</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_tf_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_tf_undefined_frame_2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_tf_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_tf_uninitialized_variable</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_tf_uninitialized_variable2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_trying_to_move_from_undefined_variable</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_bool</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_int</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_nil</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_of_uninitialized_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_string</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_undefined_frame</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_undefined_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_undefined_var2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_type_uninitialized_second_var</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_write_convert_escape_seq_from_xml</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_write_dont_convert_escape_seq_from_read</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>test_write_nil2</td>
+      <td class="OK">OK</td>
+    </tr>
+  </table>
+  <p>
+    Adresár:&emsp;
+    <span class="DIR">/homes/eva/xv/xvajco00/IPP/IPP-test.php-master/int-only/venki_tests/xml_tests</span>
+    &emsp;&emsp;18/24 
+    <span style="font-size:12px">(75%)</span>
+  </p>
+  <table>
+    <tr>
+      <th>Názov testu</th>
+      <th>Výsledok testu</th>
+    </tr>
+    <tr>
+      <td>xml_arg_has_element</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_case_sensitive_opcode</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_case_sensitive_type</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_case_sensitive_type2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_case_sensitive_type3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_case_sensitive_type4</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_excessive_text_in_instruction</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>xml_excessive_text_in_instruction2</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>xml_excessive_text_in_instruction3</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>xml_excessive_text_in_program</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_excessive_text_in_program2</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>xml_excessive_text_in_program3</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>xml_name_and_description_attributes_in_program</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_program_wrong_language</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_two_arg1s</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_two_instructions_with_same_order</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_undefined_attribute_in_arg</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_undefined_attribute_in_instruction</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_undefined_attribute_in_program</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_undefined_element_in_instruction</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_undefined_element_in_program</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_unknown_opcode</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>xml_whitespaces_in_xml</td>
+      <td class="X">X</td>
+    </tr>
+    <tr>
+      <td>xml_wrong_number_of_params</td>
+      <td class="OK">OK</td>
+    </tr>
+  </table>
+  <p>
+    Adresár:&emsp;
+    <span class="DIR">/homes/eva/xv/xvajco00/IPP/IPP-test.php-master/int-only/venki_tests/󁈞лȺ4đ󆅋%ﴘԙ۳𱳺mޜ󭚟𢋎4⍔ꄢݘ�eۭކ𜔔󂸹՜򅗩χϵл󯙭򝄡爭٨d䲨٦E𧲉򹯟</span>
+    &emsp;&emsp;1/1 
+    <span style="font-size:12px">(100%)</span>
+  </p>
+  <table>
+    <tr>
+      <th>Názov testu</th>
+      <th>Výsledok testu</th>
+    </tr>
+    <tr>
+      <td>񐾗𻯓駛�텤躙簅_򅩽𗑊6񰻹량񤞟떷q끁񞳜ɧ𜸁[S󵕤Np#򃁃𗡟֟󕯉ܫ򣚐􊛘𡹸񭁿𿽽</td>
+      <td class="OK">OK</td>
+    </tr>
+  </table>
+  <p>
+    Adresár:&emsp;
+    <span class="DIR">/homes/eva/xv/xvajco00/IPP/IPP-test.php-master/int-only/vyzi_tests/should-fail</span>
+    &emsp;&emsp;27/27 
+    <span style="font-size:12px">(100%)</span>
+  </p>
+  <table>
+    <tr>
+      <th>Názov testu</th>
+      <th>Výsledok testu</th>
+    </tr>
+    <tr>
+      <td>call1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>call2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>call3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>createframe1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>defvar1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>defvar2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>defvar3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>move1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>move2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>move3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>popframe1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>popframe2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>popframe3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>popframe4</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pops1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pops2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pops3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pops4</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pops5</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pushframe1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pushframe2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pushframe3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pushs1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pushs2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>pushs3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>return1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>return2</td>
+      <td class="OK">OK</td>
+    </tr>
+  </table>
+  <p>
+    Adresár:&emsp;
+    <span class="DIR">/homes/eva/xv/xvajco00/IPP/IPP-test.php-master/int-only/vyzi_tests/should-pass/from-parse-only</span>
+    &emsp;&emsp;13/13 
+    <span style="font-size:12px">(100%)</span>
+  </p>
+  <table>
+    <tr>
+      <th>Názov testu</th>
+      <th>Výsledok testu</th>
+    </tr>
+    <tr>
+      <td>esc_sequence</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>every_instruction_program</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>header_comment1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>header_comment2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>header_comment3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>header_comment4</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>header_w_space</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>just_header</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>no_arg_instructions1</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>no_arg_instructions2</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>no_arg_instructions3</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>no_arg_instructions4</td>
+      <td class="OK">OK</td>
+    </tr>
+    <tr>
+      <td>write_test</td>
+      <td class="OK">OK</td>
+    </tr>
+  </table>
+</body>
+</html>
