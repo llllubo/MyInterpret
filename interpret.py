@@ -1,7 +1,7 @@
 """
 PROJEKT:        Interpret jazyka IPPcode20 v XML reprezentacii kodu
 VERZIA:         1.0
-AUTOR:          Lubos Vajcovec, xvajco00
+AUTOR:          Lubos Bever
 DATUM:          14.04.2020
 PREDMET:        Principy programovacich jazykov a OOP (IPP)
 """
